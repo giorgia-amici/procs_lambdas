@@ -1,0 +1,10 @@
+A Proc is quite similar to a block but less 'fuzzy'.
+The main difference between a proc and a block is that a proc is reusable since can be used as an instance of the Class Proc (i.e. like an object).
+
+
+
+Why to use procs? In ruby a method can take only one block BUT can accept multiple procs.
+TO CALL a proc in the method:
+
+		procname.call(see .rb file for an example).
+

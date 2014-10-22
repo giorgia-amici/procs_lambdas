@@ -6,6 +6,13 @@ The main difference between a proc and a block is that a proc is reusable since 
 Why to use procs? In ruby a method can take only one block BUT can accept multiple procs.
 TO CALL a proc in the method:
 
-		procname.call(see .rb file for an example).
-if you are calling a proc where the method is expecting a block, you need to use an ampersand before the name of your proc.
+		procname.call(see .rb file Ex 2).
 
+if you are calling a proc where the method is expecting a block, you need to use an ampersand before the name of your proc (see end of Ex 1).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Lambdas are similar to procs although 
+1. they are initialized in a different way (see Ex 3)
+2. they handle the return differently from the procs (see Ex 5, 6)
+3. they are more strict on the number of argument: they want the exact number of arguments or they won't pass 

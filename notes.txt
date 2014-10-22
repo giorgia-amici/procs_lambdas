@@ -7,4 +7,5 @@ Why to use procs? In ruby a method can take only one block BUT can accept multip
 TO CALL a proc in the method:
 
 		procname.call(see .rb file for an example).
+if you are calling a proc where the method is expecting a block, you need to use an ampersand before the name of your proc.
 
